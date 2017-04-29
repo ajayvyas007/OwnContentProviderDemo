@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText
+        android:id="@+id/txtISBN"
+        android:hint="ISBN"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" />
+
+    <EditText
+        android:id="@+id/txtTitle"
+        android:hint="Title"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" />
+
+    <Button
+        android:text="Add title"
+        android:id="@+id/btnAdd"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Retrieve titles"
+        android:id="@+id/btnRetrieve"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
